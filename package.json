@@ -1,0 +1,43 @@
+{
+  "name": "@ts-runtime/serialize",
+  "version": "1.0.0",
+  "description": "A robust, type-driven serialization/deserialization library for TypeScript classes.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajasekar-arch/ts-runtime-serialize.git"
+  },
+  "keywords": [
+    "typescript",
+    "serialization",
+    "deserialization",
+    "runtime",
+    "decorators",
+    "metadata",
+    "circular reference",
+    "json",
+    "type-safe"
+  ],
+  "author": "RAJASEKAR E C <rajasekar_e_c@outlook.com>",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rajasekar-arch/ts-runtime-serialize/issues"
+  },
+  "homepage": "https://github.com/rajasekar-arch/ts-runtime-serialize#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.10",
+    "jest": "^30.0.4",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.2.2"
+  }
+}

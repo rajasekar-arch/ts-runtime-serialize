@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true, // Generate declaration files (.d.ts)
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true, // <--- IMPORTANT: Enable decorators
+    "emitDecoratorMetadata": true,   // <--- IMPORTANT: Emit metadata for decorators
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist", "tests"]
+}
