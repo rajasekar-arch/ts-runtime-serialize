@@ -1,5 +1,5 @@
 {
-  "name": "@ts-runtime/serialize",
+  "name": "ts-runtime-serialize",
   "version": "1.0.0",
   "description": "A robust, type-driven serialization/deserialization library for TypeScript classes.",
   "main": "dist/index.js",

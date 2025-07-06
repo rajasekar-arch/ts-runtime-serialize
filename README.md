@@ -1,8 +1,8 @@
-# **`@ts-runtime/serialize`**
+# **`ts-runtime-serialize`**
 
 A robust, clean, and type-driven serialization/deserialization library for TypeScript classes. This package allows you to define how your classes should be serialized to plain JavaScript objects (and back) using decorators, handling nested objects, dates, and even circular references.
 
-## **🌟 Why `@ts-runtime/serialize`?**
+## **🌟 Why `ts-runtime-serialize`?**
 
 While TypeScript provides excellent compile-time type checking, this type information is erased at runtime. This library bridges that gap for serialization, allowing you to:
 
@@ -16,9 +16,9 @@ This approach offers a cleaner, more maintainable alternative to manually mappin
 
 ## **🚀 Installation**
 
-npm install @ts-runtime/serialize reflect-metadata  
+npm install ts-runtime-serialize reflect-metadata  
 \# Or using yarn:  
-\# yarn add @ts-runtime/serialize reflect-metadata
+\# yarn add ts-runtime-serialize reflect-metadata
 
 **Important:** You need to enable `experimentalDecorators` and `emitDecoratorMetadata` in your `tsconfig.json`:
 
@@ -51,7 +51,7 @@ import {
   deserialize,  
   SerializationError,  
   CircularReferenceError  
-} from '@ts-runtime/serialize';
+} from 'ts-runtime-serialize';
 
 // \--- Custom Transformer Example \---  
 interface Point {  
@@ -290,7 +290,7 @@ Always wrap your `serialize` and `deserialize` calls in `try...catch` blocks.
 
 ### **Project Structure**
 
-ts-runtime/serialize/  
+ts-runtime-serialize/  
 ├── src/  
 │   ├── index.ts                     // Main entry point  
 │   ├── decorators.ts                // Custom decorators (@Serializable, @SerializeProperty, etc.)  

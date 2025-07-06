@@ -13,7 +13,7 @@ import {
     SerializationError,
     CustomSerializer,
     CircularReferenceError
-} from '@ts-runtime/serialize';
+} from 'ts-runtime-serialize';
 
 // --- 3. Define a Custom Transformer (Optional) ---
 // This example transforms a Point object {x, y} to a string "x,y" and back.
